@@ -12,7 +12,7 @@ html {
  .page{
     display: grid;
     grid-template-areas: "header-cell" "main-cell" "footer-cell";
-    font-family: 'Comic Sans MS', cursive;
+    font-family: Helvetica, arial, sans-serif;
     font-size: 1rem;
     background-color: rgb(238, 238, 238);
  }
@@ -23,7 +23,7 @@ html {
     grid-area: header-cell;
     position: sticky;
     top: 0;
-    background-color: white;
+    background-color: rgb(54, 53, 53);
     z-index: 1000;
  }
 
